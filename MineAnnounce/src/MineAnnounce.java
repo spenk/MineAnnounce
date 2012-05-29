@@ -1,7 +1,7 @@
 import java.util.logging.Logger;
 public class MineAnnounce extends Plugin{
 	  String name = "MineAnnounce ";
-	  String version = "1.1 ";
+	  String version = "1.2 ";
 	  String author = "by spenk ";
 	  static Logger log = Logger.getLogger("Minecraft");
 
