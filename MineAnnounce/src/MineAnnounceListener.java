@@ -78,7 +78,7 @@ public class MineAnnounceListener extends PluginListener{
 	}
 	public void load4(){
 		coalt = props4.getInt("Coal-Timer", 30);
-		ironr = props4.getInt("Iron-Timer", 30);
+		iront = props4.getInt("Iron-Timer", 30);
 		goldt = props4.getInt("Gold-Timer",30);
 		diamondt = props4.getInt("Diamond-Timer",30);
 		lapist = props4.getInt("Lapis-Timer",30);
@@ -110,7 +110,7 @@ public class MineAnnounceListener extends PluginListener{
 			if (iron == true){
 				if (!listi.contains(player.getName())){
 					amount(player.getName(), irons, block, ironr);
-					listi.add(player.getName());timer(listi,coalt*1000, player.getName());
+					listi.add(player.getName());timer(listi,iront*1000, player.getName());
 					return false;
 				}
 				}
